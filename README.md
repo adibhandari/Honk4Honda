@@ -14,7 +14,7 @@ Data for car listings on craigslist similar to the [Used Cars Kaggle dataset](ht
 
 Data cleaning (a lot of it) and exploratory data analysis is outlined in data_analysis.ipynb. Modeling is done in 2 stages - vectorization in modeling_1.ipynb and clustering in modeling_main.ipynb. The resultant clusters can be seen below
 
-![pie_chart](https://github.com/adibhandari/Honk4Honda/blob/master/cluster.png)
+![pie_chart](https://github.com/adibhandari/Honk4Honda/blob/master/cluster.PNG)
 
 ## Prerequisites
 
