@@ -1,18 +1,20 @@
-# Recipe2Cuisine
+# Honk4Honda
 
-Recipe2Cuisine is a project to predict the cuisine of a recipe
+Honk4Honda is a project to predict favorable markets for Honda to expand to using unsupervised learning.
 
 ## Background
 
-Objective is to enable users to query recipes by cuisine, not just ingredients. It is infeasible to label all the recipes by hand by hand. Using a small labeled training set, predict the cuisine, identify the driving ingredients, similarities/dissimilarities between ingredients. Deliver a guide for a few major cuisines. 
+Honda has identified Omaha, NE as a favorable market for expansion. What other similar markets can Honda expand to.
 
 ## Data
 
-Recipes data challenge. The dataset is similar to the [What's Cooking Kaggle dataset](https://www.kaggle.com/c/whats-cooking/data).
+Data for car listings on craigslist similar to the [Used Cars Kaggle dataset](https://www.kaggle.com/austinreese/craigslist-carstrucks-data).
 
 ## Process
 
-Data cleaning and exploratory data analysis is outlined in data_processing. Modeling is done using a combination of TF-IDF Vectorization and grid search using sklearn in model_training.
+Data cleaning (a lot of it) and exploratory data analysis is outlined in data_analysis.ipynb. Modeling is done in 2 stages - vectorization in modeling_1.ipynb and clustering in modeling_main.ipynb. The resultant clusters can be seen below
+
+![pie_chart](https://github.com/adibhandari/Honk4Honda/blob/master/cluster.png)
 
 ## Prerequisites
 
@@ -20,5 +22,5 @@ Data cleaning and exploratory data analysis is outlined in data_processing. Mode
 * Jupyter Notebook
 * sklearn
 * seaborn
-
+* matplotlib
 
